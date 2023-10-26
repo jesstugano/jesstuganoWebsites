@@ -9,7 +9,7 @@
   /* HSL color mode */
   --hue-color: #E6E6FA;
   --first-color:#FFC0CB;
-  --second-color: #98FB98;
+  --second-color: #FFFF;
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -415,7 +415,7 @@ img {
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
-  padding: 1rem;
+  padding: 2rem;
   border-radius: .5rem;
   border: 1.5px solid var(--second-color);
   outline: none;
@@ -433,7 +433,7 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: #333333;
+  background-color: #FFC0CB;
   color: #d5d811;
   text-align: center;
   
@@ -504,7 +504,7 @@ img {
     padding-top: 2rem;
   }
   .contact__form {
-    width: 360px;
+    max-width: 70%;
     padding-top: 2rem;
   }
   .contact__container {
